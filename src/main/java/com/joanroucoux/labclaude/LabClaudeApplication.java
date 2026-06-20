@@ -1,4 +1,4 @@
-package com.joanroucoux.lab_claude;
+package com.joanroucoux.labclaude;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

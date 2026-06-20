@@ -1,4 +1,4 @@
-package com.joanroucoux.lab_claude;
+package com.joanroucoux.labclaude;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
