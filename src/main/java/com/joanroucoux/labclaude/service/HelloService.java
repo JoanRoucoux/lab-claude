@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 public class HelloService {
 
     public HelloResponse sayHello(String name) {
-        return new HelloResponse("Hello " + name);
+        return new HelloResponse("Hello " + name.strip());
     }
 }

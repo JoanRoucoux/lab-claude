@@ -15,4 +15,11 @@ class HelloServiceTest {
 
         assertEquals("Hello Joan", response.message());
     }
+
+    @Test
+    void shouldStripWhitespacePadding() {
+        HelloResponse response = service.sayHello("  Alice  ");
+
+        assertEquals("Hello Alice", response.message());
+    }
 }
